@@ -10,7 +10,7 @@ import sys
 import re
 import streamlit as st
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
-
+nltk.download('vader_lexicon')
 #background image for the app
 
 page_bg_img = '''
