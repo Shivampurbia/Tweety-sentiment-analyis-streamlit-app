@@ -12,7 +12,7 @@ import streamlit as st
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 #name of app
-st.beta_set_page_config(page_title='Tweety',
+st.set_page_config(page_title='Tweety',
 		       page_icon=':hatched_chick:')
 
 #background image for the app
