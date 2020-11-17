@@ -4,7 +4,7 @@ import  tweepy
 import string
 import numpy as np
 import matplotlib.pyplot as plt
-from nltk.corpus import stopwords
+from nltk
 from bs4 import BeautifulSoup
 import sys
 import re
