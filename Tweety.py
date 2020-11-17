@@ -11,6 +11,8 @@ import re
 import streamlit as st
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
+nltk.download('stopwords')
+
 #name of app
 st.set_page_config(page_title='Tweety',
 		       page_icon=':hatched_chick:')
