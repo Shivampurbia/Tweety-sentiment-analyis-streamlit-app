@@ -75,7 +75,7 @@ if buffer1 ==1:
     st.sidebar.markdown('**Python** 3.6 version')
     st.sidebar.markdown('**Tweepy** Twitter API to fetch the data')
     st.sidebar.markdown('**Streamlit** this Magic ingredient here handles the Web part')
-    st.sidebar.markdown('**AWS** Deployment on the Cloud')
+    st.sidebar.markdown('**Streamlit sharing** Deployment on the Cloud')
     st.sidebar.markdown('**NLTK** Package that has some cool pre-trained model that allows us to Classify the input Text')
 
 
