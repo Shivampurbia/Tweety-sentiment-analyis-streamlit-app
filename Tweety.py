@@ -5,6 +5,7 @@ import string
 import numpy as np
 import matplotlib.pyplot as plt
 import nltk
+from nltk.corpus import stopwords
 from bs4 import BeautifulSoup
 import sys
 import re
