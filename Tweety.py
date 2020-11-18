@@ -184,8 +184,8 @@ if x is not 0:
     labels = ['Positive ['+str(positive)+'%]' , 'Neutral ['+str(neutral)+'%]' , 'Negative['+str(negative)+'%]']
     sizes = [positive,neutral,negative]
     colors = ['yellowgreen','gold','red']
-    patches, texts = plt.pie(sizes , colors =colors , startangle = 90)
     fig, ax = plt.subplots()
+    patches, texts = plt.pie(sizes , colors =colors , startangle = 90)
     plt.legend(patches,labels, loc = "best")
     plt.title("This is how People are reacting on " + searchWord +" by analyzing " +str(noOfsearchWord)+" tweets" )
     plt.axis('equal')
