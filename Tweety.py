@@ -189,7 +189,8 @@ if x is not 0:
     plt.title("This is how People are reacting on " + searchWord +" by analyzing " +str(noOfsearchWord)+" tweets" )
     plt.axis('equal')
     plt.tight_layout()
-    st.pyplot(plt.show())
+    fig = plt.show()
+    st.pyplot(fig)
 
 st.write(' ')
 st.write(' ')
