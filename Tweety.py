@@ -14,6 +14,15 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 #nltk.download('stopwords')
 
+
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
 #name of app
 st.set_page_config(page_title='Tweety',
 		       page_icon=':hatched_chick:')
