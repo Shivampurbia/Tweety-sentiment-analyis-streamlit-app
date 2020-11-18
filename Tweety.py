@@ -14,15 +14,6 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 #nltk.download('stopwords')
 
-
-hide_streamlit_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            </style>
-            """
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
-
 #name of app
 st.set_page_config(page_title='Tweety',
 		       page_icon=':hatched_chick:')
@@ -38,6 +29,14 @@ background-size: cover;
 </style>
 '''
 st.markdown(page_bg_img, unsafe_allow_html=True)
+
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 def percentage(part ,whole):
     return 100 * float(part)/float(whole)
