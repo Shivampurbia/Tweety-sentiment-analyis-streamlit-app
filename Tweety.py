@@ -185,11 +185,11 @@ if x is not 0:
     sizes = [positive,neutral,negative]
     colors = ['yellowgreen','gold','red']
     patches, texts = plt.pie(sizes , colors =colors , startangle = 90)
+    fig, ax = plt.subplots()
     plt.legend(patches,labels, loc = "best")
     plt.title("This is how People are reacting on " + searchWord +" by analyzing " +str(noOfsearchWord)+" tweets" )
     plt.axis('equal')
     plt.tight_layout()
-    fig = plt.show()
     st.pyplot(fig)
 
 st.write(' ')
