@@ -11,3 +11,10 @@ but the  main packages are:
 5. AWS - used free tier to deploy this
 
 thank you.
+
+
+
+
+
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/shivampurbia/tweety-sentiment-analyis-streamlit-app/main/Tweety.py)
