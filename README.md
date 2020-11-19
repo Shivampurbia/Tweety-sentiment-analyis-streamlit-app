@@ -9,9 +9,9 @@ but the  main packages are:
 2. NLTK - sentiment analysis model and cleansing
 3. matplotlib - for plotting the piechart
 4. Streamlit - major package that will help us run the python scripts as webpages
-5. Streamlit sharing - used Host this on Web.
+5. Streamlit sharing - used to Host this on Web.
 
-thank you.
+Thank you.
 
 
 
