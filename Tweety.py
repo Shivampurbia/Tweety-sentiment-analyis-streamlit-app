@@ -146,7 +146,7 @@ st.write(' ')
 
 auth = tweepy.OAuthHandler(consumer_key , consumerkey_secret )
 auth.set_access_token(access_token, accesstoken_secret)
-api = tweepy.API(auth)
+api = tweepy.API(auth,wait_on_rate_limit=True)
 
 searchWord = hashtag
 
