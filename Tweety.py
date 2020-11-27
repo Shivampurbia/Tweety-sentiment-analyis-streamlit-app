@@ -30,13 +30,13 @@ background-size: cover;
 '''
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
-#hide_streamlit_style = """
- #           <style>
-  #          #MainMenu {visibility: hidden;}
-   #         footer {visibility: hidden;}
-    #        </style>
-     #       """
-#st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 def percentage(part ,whole):
     return 100 * float(part)/float(whole)
