@@ -91,6 +91,9 @@ buffer2 = st.sidebar.checkbox('Source Code ')
 if buffer2 == 1:
     st.sidebar.markdown('https://github.com/Shivampurbia')
                           
+buffer3 = st.sidebar.checkbox('See DEMO video')
+if buffer3 ==1:
+    st.sidebar.video('https://www.youtube.com/watch?v=4DVeGugV-5g&feature=youtu.be',format='mp4')                          
 
 
 #title of our app
