@@ -38,7 +38,7 @@ Jinja2==2.11.2
 jmespath==0.10.0
 json5==0.8.5
 jsonschema>=3.0.1
-jupyter-client==5.2.4
+jupyter-client>=6.1.5
 jupyter-core==4.4.0
 jupyter-http-over-ws==0.0.8
 jupyterlab==1.2.4
@@ -49,7 +49,7 @@ mathparse==0.1.2
 mistune==0.8.3
 murmurhash==1.0.2
 nbconvert==5.3.1
-nbformat==4.4.0
+nbformat>=5.0
 nltk>=3.4.5
 notebook==5.7.4
 numpy
@@ -71,7 +71,7 @@ protobuf==3.12.4
 pyarrow==1.0.0
 pycparser==2.19
 pydeck==0.4.1
-Pygments==2.3.1
+pygments<3
 pygooglechart==0.4.0
 pymongo==3.8.0
 pyparsing==2.3.1
