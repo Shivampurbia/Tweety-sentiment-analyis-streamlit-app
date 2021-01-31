@@ -1,4 +1,4 @@
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/shivampurbia/tweety-sentiment-analyis-streamlit-app/main/Tweety.py)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](http://3.7.69.83:8501/)
 # Tweety-sentiment-analyis-streamlit-app
 An app  that can perform sentiment analysis on tweets of any hot topic
 
