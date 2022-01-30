@@ -103,10 +103,10 @@ st.subheader('An interactive Web app to perform Sentiment Analysis on Tweets of 
 
 
 #secret keys we need to access the API  
-consumer_key = 'xWaBy4T6PoPMPwGcToE8UQHgM'
-consumerkey_secret = 'ZEjIDz3MmCBw46dzsQyqMOAZiWNjvOWoKr08kjxtrr92i1s0fa'
-access_token = '3226759777-W3ZjS4btcsY0Md0AzntXGwXzBT31o8l5wKvlDDG'
-accesstoken_secret = 'IufUiSiN3u00wLYWkyXNDMxSLjbUDIyWX8LYNCsv5SEKG'
+consumer_key = 'xWaBy46MPwGcToE8UQHgM'
+consumerkey_secret = 'ZEjIDz3mCBwzsQyqMOAZiWNjvOWoKr08kjxtrr92i1s0fa'
+access_token = '3226759777-W4btcsY0d0AzntXGwXzBT31o8l5wKvlDDG'
+accesstoken_secret = 'IufUiSiN3uLYWkyXNDMxSLjbUDIyWX8LYNCsv5SEKG'
 st.write(' ')
 st.write(' ')
 
