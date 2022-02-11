@@ -67,7 +67,7 @@ plotly==4.4.1
 preshed==2.0.1
 prometheus-client==0.5.0
 prompt-toolkit==2.0.7
-protobuf==3.12.4
+protobuf==3.15.0
 pyarrow==1.0.0
 pycparser==2.19
 pydeck==0.4.1
