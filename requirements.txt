@@ -106,7 +106,7 @@ textblob==0.15.3
 thinc==7.0.4
 toml==0.10.1
 toolz==0.10.0
-tornado==5.1.1
+tornado==6.3.2
 tqdm==4.32.1
 traitlets==4.3.2
 tweepy==3.7.0
