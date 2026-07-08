@@ -107,7 +107,7 @@ thinc==7.0.4
 toml==0.10.1
 toolz==0.10.0
 tornado==6.5.7
-tqdm==4.32.1
+tqdm==4.66.3
 traitlets==4.3.2
 tweepy==3.7.0
 tzlocal==2.1
