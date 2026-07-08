@@ -59,7 +59,7 @@ preshed==3.0.10
 prometheus-client==0.22.1
 prompt-toolkit==3.0.51
 protobuf==5.29.6
-pyarrow==20.0.0
+pyarrow==23.0.1
 pycparser==2.22
 pydeck==0.9.1
 Pygments==2.20.0
