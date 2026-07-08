@@ -74,7 +74,7 @@ pycparser==2.19
 pydeck==0.4.1
 pygments<3
 pygooglechart==0.4.0
-pymongo==3.8.0
+pymongo==4.6.3
 pyparsing==2.3.1
 PySocks==1.6.8
 python-dateutil==2.7.5
